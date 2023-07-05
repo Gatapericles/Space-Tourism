@@ -17,5 +17,13 @@
         "tab": "./assets/technology/background-technology-tablet.jpg"
       }  
     }
+  ],
+
+  "nav": [
+    {
+      "logoImage": "./assets/shared/logo.svg",
+      "hamburgerImage": "./assets/shared/icon-hambruger.svg",
+      "exitIcon": "./assets/shared/icon-close.svg" 
+    }
   ]
 }
