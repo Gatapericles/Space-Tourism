@@ -1,0 +1,21 @@
+{
+  "backgroundImages": [
+    {
+      "destination": {
+        "desk": "./assets/destination/background-destination-desktop.jpg",
+        "mob": "./assets/destination/background-destination-mobile.jpg",
+        "tab": "./assets/destination/background-destination-tablet.jpg"
+      },
+      "crew": {
+        "desk": "./assets/crew/background-crew-desktop.jpg",
+        "mob": "./assets/crew/background-crew-mobile.jpg",
+        "tab": "./assets/crew/background-crew-tablet.jpg"
+      },
+      "technology": {
+        "desk": "./assets/technology/background-technology-desktop.jpg",
+        "mob": "./assets/technology/background-technology-mobile.jpg",
+        "tab": "./assets/technology/background-technology-tablet.jpg"
+      }  
+    }
+  ]
+}
