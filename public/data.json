@@ -25,5 +25,18 @@
       "hamburgerImage": "./assets/shared/icon-hambruger.svg",
       "exitIcon": "./assets/shared/icon-close.svg" 
     }
+  ],
+
+  "homePage": [
+    {
+      "bgImageDesk": "./assets/home/background-home-desktop.jpg",
+      "bgImageMob": "./assets/home/background-home-mobile.jpg",
+      "bgImageTab": "./assets/home/background-home-tablet.jpg",
+      "iconClose": "./assets/shared/icon-close.svg",
+      "title": "ESPAÇO",
+        
+      "description": "Vamos encarar se você quer ir para o espaço, pode muito bem ir genuinamente para o espaço sideral e não pairar no limite dele. Bem, sente-se e relaxe porque vamos dar-lhe uma experiência verdadeiramente fora deste mundo!",
+      "subTitle": "ENTÃO VOCÊ QUER VIAJAR PARA:"  
+    }
   ]
 }
