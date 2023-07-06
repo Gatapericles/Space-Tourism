@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .titleStyle {
+        @apply font-['Bellefair'] font-light text-7xl;
+    }
+    .subTittleStyle {
+        @apply font-['Barlow Condensed', sans-serif];
+    }
+
+}
