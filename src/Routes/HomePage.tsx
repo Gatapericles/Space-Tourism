@@ -3,41 +3,27 @@ import { Link } from "react-router-dom";
 
 function HomePage() {
   if (screen.width < 375) {
-    document.body.style.background = 
-    `url(${srcData.homePage[0].bgImageDesk}) 
-    no-repeat fixed `;
-    document.body.style.backgroundSize = "cover";
-  } 
-  if (screen.width < 700 && screen.width > 375) {
-    document.body.style.background = 
-    `url(${srcData.homePage[0].bgImageMob}) 
-    no-repeat fixed `;
+    document.body.style.background = `url(${srcData.homePage[0].bgImageMob})  no-repeat  fixed `;
     document.body.style.backgroundSize = "cover";
   }
+  if (screen.width < 700 && screen.width > 375) {
+    document.body.style.background = `url(${srcData.homePage[0].bgImageTab})  no-repeat  fixed`;
+  }
   if (screen.width > 700) {
-    document.body.style.background = 
-    `url(${srcData.homePage[0].bgImageTab}) 
-    no-repeat fixed `;
+    document.body.style.background = `url(${srcData.homePage[0].bgImageDesk})  no-repeat  fixed `;
     document.body.style.backgroundSize = "cover";
   }
   window.addEventListener("resize", () => {
     if (screen.width < 375) {
-        document.body.style.background = 
-        `url(${srcData.homePage[0].bgImageDesk}) 
-        no-repeat fixed `;
-        document.body.style.backgroundSize = "cover";
-    } 
+      document.body.style.background = `url(${srcData.homePage[0].bgImageMob})  no-repeat  fixed`;
+      document.body.style.backgroundSize = "cover";
+    }
     if (screen.width < 700 && screen.width > 375) {
-        document.body.style.background = 
-        `url(${srcData.homePage[0].bgImageMob}) 
-        no-repeat fixed `;
-        document.body.style.backgroundSize = "cover";
+      document.body.style.background = `url(${srcData.homePage[0].bgImageTab})  no-repeat  `;
     }
     if (screen.width > 700) {
-        document.body.style.background = 
-        `url(${srcData.homePage[0].bgImageTab}) 
-        no-repeat fixed `;
-        document.body.style.backgroundSize = "cover";
+      document.body.style.background = `url(${srcData.homePage[0].bgImageDesk})  no-repeat  fixed  `;
+      document.body.style.backgroundSize = "cover";
     }
   });
   
