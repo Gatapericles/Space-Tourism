@@ -38,5 +38,50 @@
       "description": "Vamos encarar se você quer ir para o espaço, pode muito bem ir genuinamente para o espaço sideral e não pairar no limite dele. Bem, sente-se e relaxe porque vamos dar-lhe uma experiência verdadeiramente fora deste mundo!",
       "subTitle": "ENTÃO VOCÊ QUER VIAJAR PARA:"  
     }
+  ],
+  "destination": [
+    {
+      "name": "Lua",
+      "images": {
+        "png": "./assets/destination/image-moon.png",
+        "webp": "./assets/destination/image-moon.webp"
+      },
+      "description": "Veja nosso planeta como você nunca viu antes. Uma viagem relaxante perfeita para ajudar a recuperar a perspectiva e voltar revigorado. Enquanto estiver lá, conheça um pouco da história visitando os locais de pouso da Luna 2 e da Apollo 11.",
+      "distance": "384,400 km",
+      "travel": "3 dias"
+    },
+
+    {
+      "name": "Marte",
+      "images": {
+        "png": "./assets/destination/image-mars.png",
+        "webp": "./assets/destination/image-mars.webp"
+      },
+      "description": "Não se esqueça de levar suas botas de caminhada. Você precisará delas para enfrentar o Olympus Mons, a montanha planetária mais alta do nosso sistema solar. É duas vezes e meia o tamanho do Everest!",
+      "distance": "628 mil. km",
+      "travel": "3 dias"
+    },
+
+    {
+      "name": "Europa",
+      "images": {
+        "png": "./assets/destination/image-europa.png",
+        "webp": "./assets/destination/image-europa.webp"
+      },
+      "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é o sonho de um amante do inverno. Com uma superfície gelada, é perfeita para patinar no gelo, curling, hóquei ou simplesmente relaxar em sua confortável cabana de inverno.",
+      "distance": "628 mil. km",
+      "travel": "3 anos"
+    },
+
+    {
+      "name": "Titã",
+      "images": {
+        "png": "./assets/destination/image-titan.png",
+        "webp": "./assets/destination/image-titan.webp"
+      },
+      "description": "A única lua conhecida por ter uma atmosfera densa além da Terra, Titã é um lar longe de casa (apenas algumas centenas de graus mais frio!). Como bônus, você obtém vistas impressionantes dos Anéis de Saturno.",
+      "distance": "1.6 bil. km",
+      "travel": "7 anos"
+    }
   ]
 }
