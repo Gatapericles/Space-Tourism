@@ -124,5 +124,33 @@
       "role": "Engenheiro de voo",
       "bio": "Anousheh Ansari é uma engenheira iraniana-americana e cofundadora da Prodea Systems. Ansari foi a quarta turista espacial autofinanciada, a primeira mulher autofinanciada a voar para a ISS e a primeira iraniana no espaço."  
     }
+  ],
+  "technology": [
+    {
+      "name": "Veículo de lançamento",
+      "images": {
+        "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
+        "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
+      },
+      "description": "Um veículo de lançamento ou foguete transportador é um veículo movido a foguete usado para transportar uma carga útil da superfície da Terra para o espaço, geralmente para a órbita da Terra ou além. Nosso foguete transportador WEB-X é o mais poderoso em operação. Com 150 metros de altura, é uma visão inspiradora na plataforma de lançamento!"
+    },
+
+    {
+      "name": "Espaçoporto",
+      "images": {
+        "portrait": "./assets/technology/image-spaceport-portrait.jpg",
+        "landscape": "./assets/technology/image-spaceport-landscape.jpg"
+      },
+      "description": "Um espaçoporto ou cosmódromo é um local para lançamento (ou recebimento) de espaçonaves, por analogia com o porto marítimo para navios ou aeroporto para aeronaves. Com sede no famoso Cabo Canaveral, nosso espaçoporto está idealmente situado para aproveitar a rotação da Terra para o lançamento."   
+    },
+
+    {
+      "name": "Cápsula espacial",
+      "images": {
+        "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
+        "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
+      },
+      "description": "Uma cápsula espacial é uma espaçonave frequentemente tripulada que usa uma cápsula de reentrada de corpo rombudo para reentrar na atmosfera da Terra sem asas. Nossa cápsula é onde você passará seu tempo durante o voo. Inclui um ginásio espacial, cinema e muitas outras atividades para o manter entretido."
+    }
   ]
 }
