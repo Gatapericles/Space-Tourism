@@ -18,3 +18,23 @@
 .subTitleNums {
    @apply text-[#616476] font-BarlowCondensed font-bold;
 }
+
+@keyframes exploreAnimation {
+   0% {
+      height: 100%;
+      width: 100%;
+   }
+   50% {
+      height: 150%;
+      width: 150%;
+   }
+   100% {
+      height: 100%;
+      width: 100%;
+   }
+}
+.exploreBtn:hover::before {
+   animation-name: exploreAnimation;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
