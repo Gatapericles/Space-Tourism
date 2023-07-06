@@ -18,6 +18,29 @@
 .subTitleNums {
    @apply text-[#616476] font-BarlowCondensed font-bold;
 }
+.centerContent {
+   @apply flex flex-col h-full justify-center text-center;
+}
+.line {
+   height: 1px;
+   background: #ffffff;
+}
+.onPlanet:hover:before {
+   position: absolute;
+   content: "";
+   height: 1px;
+   background: #ffffff;
+   width: 100%;
+   bottom: -5px;
+}
+.photoLine {
+   content: "";
+   display: block;
+   height: 1px;
+   background: #616476;
+   width: 90%;
+   bottom: 0px;
+}
 
 @keyframes exploreAnimation {
    0% {
