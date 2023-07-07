@@ -2,6 +2,9 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import srcData from "../public/data.json";
 import { HomePage } from "./Routes/HomePage";
+import { Destinations } from "./Routes/Destinations";
+
+import { ToggleNav } from "./ToggleNav";
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -20,7 +23,8 @@ function App() {
                alt=""
                className="block"
           />
-          <img src={srcData.nav[0].hamburgerImage}
+          <img className="block"
+               src={srcData.nav[0].hamburgerImage}
                alt=""
                onClick={handleHamburgerClick}
           />
@@ -28,8 +32,16 @@ function App() {
 
         <BrowserRouter>
           <Routes>
-            <Route>
+            <Route 
+                path="/"
+                element={
+                  <ToggleNav
+                    imgSrc={srcData.nav[0].exitIcon}
+                    hidAndShowNav={showNav}
+                    setShowNav={handleHamburgerClick}/>
+                }>
               <Route index element={<HomePage/>} />
+              <Route path="destinations" element={<Destinations/>}/>
             </Route>
           </Routes>
         </BrowserRouter>
