@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import srcData from "../public/data.json";
 import { HomePage } from "./Routes/HomePage";
 import { Destinations } from "./Routes/Destinations";
-
+import { Crew } from "./Routes/Crew";
 import { ToggleNav } from "./ToggleNav";
+import { Technology } from "./Routes/Technology";
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -41,7 +42,9 @@ function App() {
                     setShowNav={handleHamburgerClick}/>
                 }>
               <Route index element={<HomePage/>} />
-              <Route path="destinations" element={<Destinations/>}/>
+              <Route path="destinations" element={<Destinations/>} />
+              <Route path="crew" element={<Crew/>}/>
+              <Route path="technology" element={<Technology/>}/>
             </Route>
           </Routes>
         </BrowserRouter>

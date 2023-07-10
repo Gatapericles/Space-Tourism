@@ -62,12 +62,32 @@ function ToggleNav({
                     <NavLink to="destinations">
                         <h5
                             onClick={handleClose}
-                            className={`font-['Barlow Condensed', sans-serif]      ${hoveringOnNavItem} relative font-extralight ${curRoute.pathname == "/destinations"
+                            className={`font-['Barlow Condensed', sans-serif] ${hoveringOnNavItem} relative font-extralight ${curRoute.pathname == "/destinations"
                                 ? "before:absolute before:content-[''] before:h-[100%] before:w-[3px] sm_md:before:w-[100%] sm_md:before:h-[3px] sm_md:before:bottom-[-21px] before:right-0 before:bg-white"
                                 : null
                                 }`}
                         >
                             <strong className="font-bold">01</strong>&nbsp;DESTINO
+                        </h5>
+                    </NavLink>
+                    <NavLink to="crew">
+                        <h5
+                           onClick={handleClose}
+                           className={`font-['Barlow Condensed',sans-serif] ${hoveringOnNavItem} relative font-extralight ${curRoute.pathname == "/crew"
+                           ? "before:absolute before:content-[''] before:h-[100%] before:w-[3px] sm_md:before:w-[100%] sm_md:before:h-[3px] sm_md:before:bottom-[-21px] before:right-0 before:bg-white"
+                           : null
+                           }`}
+                        >
+                            <strong className="font-bold">02</strong>&nbsp;TRIPULAÇÃO
+                        </h5>            
+                    </NavLink>
+                    <NavLink to="technology">
+                        <h5
+                           onClick={handleClose}
+                           className={`font-['Barlow Condensed', sans-serif] relative ${hoveringOnNavItem}  font-extralight ${curRoute.pathname == "/technology" ? "before:absolute before:content-[''] before:h-[100%] before:w-[3px] sm_md:before:w-[100%] sm_md:before:h-[3px] sm_md:before:bottom-[-21px] before:right-0 before:bg-white" : null
+                         }`}
+                        >
+                            <strong className="font-bold">03</strong>&nbsp; TECNOLOGIA
                         </h5>
                     </NavLink>
                 </div>
