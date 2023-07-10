@@ -26,6 +26,10 @@ junto com React.js. Possuindo também responsividade. O projeto apresenta uma in
 
 - Tailwind.css
 
+# Visualização do projeto!
+
+DEPLOY: https://space-tourism-9ytp5hroq-gatapericles.vercel.app
+
 # Desenvolvedor
 
 - Gmail - sm324477@gmail.com
